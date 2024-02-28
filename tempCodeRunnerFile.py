@@ -12,7 +12,7 @@ from google.oauth2 import service_account
 
 # Define Create_Service function (replace with your implementation)
 def Create_Service(client_secret_file, api_name, api_version, *scopes):
-    credentials = service_account.Credentials.from_service_account_file( #This is what was missing, needed a credentials variable to allow permissions.
+    credentials = service_account.Credentials.from_service_account_file(
         client_secret_file, scopes=scopes[0]
     )
     service = build(api_name, api_version, credentials=credentials)
@@ -28,14 +28,13 @@ API_VERSION = "v3"
 # Replace with the correct implementation of Create_Service
 service = Create_Service(SERVICE_ACCOUNT_FILE, API_NAME, API_VERSION, SCOPES)
 print('Service created successfully')
-folder_id = "1cE5w3LSzAjiMLLmndtJ3P7pOTokhLuHH"
-image_folder_id = "1rZi3zOw4dzlcqOyHE2dAI37SSuEhfVge"
-misc_folder_id="1S9agy36W-ziHFrcaguZMFHphqjGVO8v8"
+folder_id = "**************************"
+image_folder_id = "***********************"
+misc_folder_id="***************************"
 
 file_names = [] #list to hold files from the files.
-counter =0
 
-path = "/Users/aidanbongiorno/Desktop/images_stuff"
+path = "/path/to/folder/on/desktop"
 
 for (root, dirs, file) in os.walk(path):
     for f in file:
