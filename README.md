@@ -23,7 +23,7 @@ folder_id = "**************************"
 image_folder_id = "***********************"
 misc_folder_id="***************************"
 ```
-### The folder_id, image_folder_id, and misc_folder_id all relate to the endpoints for each of the selected folders.
+#### The folder_id, image_folder_id, and misc_folder_id all relate to the endpoints for each of the selected folders.
 #### You can find them by going to your google drive, then your selected folder, then look at the last backslash and use that.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
