@@ -8,7 +8,7 @@ import shutil
 def cleaner():
     counter_image = 0
     desktop = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') 
-    destination = '/Users/aidanbongiorno/Desktop/images_stuff'
+    destination = '/path/to/folder'
 
     desktop_files = os.listdir(desktop)
 
