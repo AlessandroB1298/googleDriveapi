@@ -11,7 +11,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## Probelms/Solutions
 
-### There have been some issues with this program, but setting up the api isn't too difficult, there are some good instrucitons linked [Here](https://developers.google.com/drive/api/quickstart/python)
+### Instrucitons linked [Here](https://developers.google.com/drive/api/quickstart/python)
 
 ### These lines below are very important to the routing of where these files are going to go.
 
